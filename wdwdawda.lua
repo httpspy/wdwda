@@ -1,3 +1,5 @@
 funcs.getexecutorname = function()
- return 'RC2'
+    if Celery == 0 then
+        return 'RC2'
+    end
 end
